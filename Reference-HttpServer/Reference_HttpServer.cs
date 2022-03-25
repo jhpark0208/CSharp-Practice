@@ -101,6 +101,8 @@ namespace Reference_HttpServer
             ctx.Response.StatusCode = 200;
             ctx.Response.Close();
         }
+
+        // ADD GET Function
     }
 
     class POST
@@ -127,5 +129,7 @@ namespace Reference_HttpServer
             ctx.Response.StatusCode = 200;
             ctx.Response.Close();
         }
+
+        // ADD POST Function
     }
 }
